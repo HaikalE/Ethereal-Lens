@@ -68,7 +68,7 @@ If you find a bug or have a feature request, please open an issue in the reposit
 
 ## Community and Support
 
-If you have any questions or need further assistance, feel free to reach out by opening an issue or contacting us directly at support@ethereallens.com.
+If you have any questions or need further assistance, feel free to reach out by opening an issue or contacting us directly at haikalrahman079@gmail.com.
 
 ---
 
