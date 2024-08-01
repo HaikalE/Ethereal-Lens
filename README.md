@@ -4,8 +4,12 @@
 
 <img src="https://github.com/user-attachments/assets/74d3d75a-002a-4a9c-854b-f8ff884b5d95" alt="Landing Page - With Preview" width="400"/>
 *Landing Page of Ethereal Lens - With Preview Mode Enabled.*
+
+
 <img src="https://github.com/user-attachments/assets/8554ae57-3334-4633-82f7-94504f17c6ce" alt="Landing Page - With Preview" width="400"/>
 *Landing Page of Ethereal Lens - Preview Mode in Action.*
+
+
 <img src="https://github.com/user-attachments/assets/49d2126e-9a60-4b7f-8d8c-107d22314c7d" alt="Landing Page - Without Preview" width="400"/>
 *Landing Page of Ethereal Lens - Without Preview Mode.*
 
