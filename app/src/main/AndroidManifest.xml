@@ -1,0 +1,49 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="eu.sisik.backgroundcam">
+
+    <uses-feature
+            android:name="android.hardware.camera"
+            android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+    <uses-permission android:name="android.permission.CAPTURE_AUDIO_HOTWORD" /> <!-- Choose at least one permission from the list -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.BackgroundCam">
+        <receiver
+                android:name=".MyBroadcastReceiver"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="eu.sisik.backgroundcam.ACTION_STOPPED" />
+            </intent-filter>
+        </receiver>
+        <activity android:name=".MainActivity"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+                android:name=".CamService"
+                android:enabled="true"
+                android:permission="android.permission.FOREGROUND_SERVICE"
+                android:exported="true"
+                android:foregroundServiceType="camera|microphone" /> <!-- This line is already included -->
+    </application>
+
+</manifest>
