@@ -2,6 +2,11 @@
 
 ---
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9f69d53e-26a5-4b93-9a40-78361299d9f5" alt="Ethereal Lens Logo" width="200"/>
+</p>
+
+
 <img src="https://github.com/user-attachments/assets/74d3d75a-002a-4a9c-854b-f8ff884b5d95" alt="Landing Page - With Preview" width="400"/>
 *Landing Page of Ethereal Lens - With Preview Mode Enabled.*
 
